@@ -4,7 +4,31 @@
   box-sizing: border-box;
 }
 body {
-  background-color: black;
+  background-color: gainsboro;
   border: gray;
-  color: white;
+}
+
+.col-md-5 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+.box {
+  border: 1px salmon solid;
+  padding: 30px;
+  border-radius: 20px;
+  /* background-color: aquamarine; */
+}
+.box label {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+#mybtn {
+  padding: 8px;
+}
+#mybtn button {
+  margin-left: 8px;
 }
